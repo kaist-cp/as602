@@ -1,0 +1,20 @@
+# *.pdf
+!transcripts/*.pdf
+
+*.aux
+*.log
+
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.out
+
+*.synctex.gz
+
+/.vscode/
+/auto
+
+comment.cut
+svg-inkscape
+.DS_Store
