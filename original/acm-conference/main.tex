@@ -1,21 +1,21 @@
 %%
-%% This is file `sample-manuscript.tex',
+%% This is file `sample-sigplan.tex',
 %% generated with the docstrip utility.
 %%
 %% The original source files were:
 %%
-%% samples.dtx  (with options: `manuscript')
-%%
+%% samples.dtx  (with options: `sigplan')
+%% 
 %% IMPORTANT NOTICE:
-%%
+%% 
 %% For the copyright see the source file.
-%%
+%% 
 %% Any modified versions of this file must be renamed
-%% with new filenames distinct from sample-manuscript.tex.
-%%
+%% with new filenames distinct from sample-sigplan.tex.
+%% 
 %% For distribution of the original source see the terms
 %% for copying and modification in the file samples.dtx.
-%%
+%% 
 %% This generated file may be distributed as long as the
 %% original source files, as listed above, are part of the
 %% same distribution. (The sources need not necessarily be
@@ -34,19 +34,19 @@
 %%
 %%
 %% The first command in your LaTeX source must be the \documentclass command.
-%%%% Small single column format, used for CIE, CSUR, DTRAP, JACM, JDIQ, JEA, JERIC, JETC, PACMCGIT, TAAS, TACCESS, TACO, TALG, TALLIP (formerly TALIP), TCPS, TDSCI, TEAC, TECS, TELO, THRI, TIIS, TIOT, TISSEC, TIST, TKDD, TMIS, TOCE, TOCHI, TOCL, TOCS, TOCT, TODAES, TODS, TOIS, TOIT, TOMACS, TOMM (formerly TOMCCAP), TOMPECS, TOMS, TOPC, TOPLAS, TOPS, TOS, TOSEM, TOSN, TQC, TRETS, TSAS, TSC, TSLP, TWEB.
-% \documentclass[acmsmall]{acmart}
-
-%%%% Large single column format, used for IMWUT, JOCCH, PACMPL, POMACS, TAP, PACMHCI
-% \documentclass[acmlarge,screen]{acmart}
-
-%%%% Large double column format, used for TOG
-% \documentclass[acmtog, authorversion]{acmart}
-
-%%%% Generic manuscript mode, required for submission
-%%%% and peer review
-\documentclass[manuscript,screen,review]{acmart}
-%% Fonts used in the template cannot be substituted; margin
+\documentclass[sigplan,screen]{acmart}
+%% NOTE that a single column version is required for 
+%% submission and peer review. This can be done by changing
+%% the \doucmentclass[...]{acmart} in this template to 
+%% \documentclass[manuscript,screen,review]{acmart}
+%% 
+%% To ensure 100% compatibility, please check the white list of
+%% approved LaTeX packages to be used with the Master Article Template at
+%% https://www.acm.org/publications/taps/whitelist-of-latex-packages 
+%% before creating your document. The white list page provides 
+%% information on how to submit additional LaTeX packages for 
+%% review and adoption.
+%% Fonts used in the template cannot be substituted; margin 
 %% adjustments are not allowed.
 %%
 %% \BibTeX command to typeset BibTeX logo in the docs
@@ -72,8 +72,8 @@
 %  Uncomment \acmBooktitle if th title of the proceedings is different
 %  from ``Proceedings of ...''!
 %
-\acmBooktitle{Woodstock '18: ACM Symposium on Neural Gaze Detection,
- June 03--05, 2018, Woodstock, NY}
+%\acmBooktitle{Woodstock '18: ACM Symposium on Neural Gaze Detection,
+%  June 03--05, 2018, Woodstock, NY} 
 \acmISBN{978-1-4503-XXXX-X/18/06}
 
 
@@ -355,7 +355,7 @@ Frequently-used parameters, or combinations of parameters, include:
 This document uses the following string as the first command in the
 source file:
 \begin{verbatim}
-\documentclass[sigconf,authordraft]{acmart}
+\documentclass[sigplan,screen]{acmart}
 \end{verbatim}
 
 \section{Modifications}
@@ -831,4 +831,4 @@ massa et mattis lacinia.
 \end{document}
 \endinput
 %%
-%% End of file `sample-authordraft.tex'.
+%% End of file `sample-sigplan.tex'.
